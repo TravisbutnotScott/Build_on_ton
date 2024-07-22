@@ -1,10 +1,11 @@
 # handlers.py
 from aiogram import Dispatcher, types
 from helper_init import dp, bot
-
+from datetime import datetime, timedelta
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, WebAppInfo
 from aiogram.utils import executor
 
+FLASK_API_URL = 'http://127.0.0.1:5000'
 
 
 
@@ -26,6 +27,19 @@ async def menu(message: types.Message):
     
     # Send the message with the inline keyboard
     await message.answer("Welcome to Build on ton 🏠", reply_markup=keyboard)
+    auth_date = int(datetime.utcnow().timestamp())
+    data = {
+        'query_id': '1',
+        'user': message.chat.id,
+        'auth_date': int(auth_date)
+    }
+
+
+    print("Bot Data:")
+    print(data)
+    
+
+
 
 # Callback query handler
 async def handle_callback(query: types.CallbackQuery):

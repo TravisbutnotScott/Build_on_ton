@@ -5,12 +5,12 @@ import time
 from aiogram.utils import executor
 from helper_init import dp, bot
 
-
-from handlers import client
-from handlers import menu
+from handlers import client, menu, db_start
 
 client.register_handlers(dp)
 menu.register_handlers(dp)
+db_start.register_handlers(dp)
+
 
 
 
