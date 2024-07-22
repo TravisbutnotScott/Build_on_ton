@@ -5,7 +5,7 @@ from helper_init import dp, bot
 
 
 async def start(message: types.Message):
-    await message.reply(f'->DEBUG INF Chat ID: {message.chat.id}<-\nHi-hello🙃, You stared BuildOnTon bot\nGame&chill!😉\nPress /commands for a list of commands', parse_mode='Markdown')
+    await message.reply(f'->DEBUG INF Chat ID: {message.chat.id}<-\nСhoose a language:', parse_mode='Markdown')
  
 
 

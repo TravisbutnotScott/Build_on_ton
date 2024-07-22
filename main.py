@@ -1,4 +1,4 @@
-# 👉 🙏 👆 🤖 ❤️ 💪 ✍️ 🎯 ✖️ ⛔  ️✅ 📊📈🧮 🏠 👷🏼 🏗
+# 👉 🙏 👆 🤖 ❤️ 💪 ✍️ 🎯 ✖️ ⛔ ✅ 📊 📈 🧮 🏠 👷🏼 🏗
 #import json, time, random
 import time
 
