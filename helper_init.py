@@ -1,3 +1,4 @@
+#файл-прокладка между main и handlers
 from aiogram import Bot
 from aiogram.dispatcher import Dispatcher
 import config #создаем config.py и пишем там: TOKEN = 'TOKEN', скрываем в .gitignore

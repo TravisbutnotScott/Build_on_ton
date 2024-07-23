@@ -1,4 +1,7 @@
+# cmd_start регестрирует в базе данных, если тебя там нет
+# cmd_ref дает твою реферальную ссылку 
 from helper_init import dp, bot
+
 
 
 

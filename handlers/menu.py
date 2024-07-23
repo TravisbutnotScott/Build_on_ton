@@ -1,4 +1,4 @@
-# handlers.py
+# main menu for bot
 from aiogram import Dispatcher, types
 from helper_init import dp, bot
 from datetime import datetime, timedelta

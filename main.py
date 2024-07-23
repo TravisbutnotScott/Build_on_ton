@@ -5,6 +5,7 @@ import time
 from aiogram.utils import executor
 from helper_init import dp, bot
 
+#регестрация handlers
 from handlers import client, menu, db_start
 
 client.register_handlers(dp)

@@ -1,4 +1,6 @@
-from handlers.db_models import Base
+#создает db в file, если нет ее
+
+from handlers.db_start import Base
 
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base

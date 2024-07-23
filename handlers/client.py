@@ -1,12 +1,7 @@
-# handlers.py
+# основные handlers функции
 from aiogram import Dispatcher, types
 from helper_init import dp, bot
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, WebAppInfo
-
-#debugging, del
-global lang
-lang = 'en'
-
 
 async def start(message: types.Message):
     keyboard = InlineKeyboardMarkup(row_width=2)
